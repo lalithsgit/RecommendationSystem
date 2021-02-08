@@ -5,7 +5,7 @@ A Recommendation system is a subclass of INformation Filtering Systems which see
 
 ## Collaborative filtering
 Collaborative filtering works on the priciple of collective intelligence - combining behavior, preferencs, or ideas of a group of people to derive insights. The assumption is that users who have similar preferences in the past are likely to have similar preferences in the future.
-<img src="Images/collaborative1.jpg" width="48">
+<img src="Images/collaborative1.jpg" width="300">
 
 ### Using Explicit Feedback
 Explicit inout from the user regarding an item - prompting the user for rating. The accuracy of such a recommendation system depends on tge quantity of ratings provided by the user. It is seens as reliable data, provides transparency into the recommendation process. I used Matrix Factorization (Singular Value Decomposition).
