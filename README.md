@@ -11,9 +11,7 @@ Collaborative filtering works on the priciple of collective intelligence - combi
 Explicit inout from the user regarding an item - prompting the user for rating. The accuracy of such a recommendation system depends on tge quantity of ratings provided by the user. It is seens as reliable data, provides transparency into the recommendation process. I used Matrix Factorization (Singular Value Decomposition).
 
 #### Matrix Factorization
-![Matrix Factorization](Images/MatrixFact.png)
-
-
+<img src="Images/MatrixFact.png" width="300">
 
 ### Using Implicit Feedback
 The system will infer user's preferences by monitoring different user actions like links followed by a user, button clicks amongst others. The predictions are objective, as there is no bias. I identified music 'saved' and 'spotlighted' as our implicit features for the client. For deriving similarities I used Jaccard Distance. The formula compares abd produces a simple decimal statistic between 0 and 1.
