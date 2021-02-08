@@ -2,6 +2,7 @@
 #### Bootcamp capstone project
 
 A Recommendation system is a subclass of Information Filtering Systems which seek to predict a user's preference to an item. I attempted to lay the foundation for improving user experience by suggesting music based on user ratings, user spotlights of music and music saves for an upcoming music sharing website.
+The collaborative filtering algorithm that was built is based on three features: user ratings, user spotlights of music, and music saves. It involves the creation of a probabilistic model in which each feature plays a role in influencing future recommendations. The features we used can be further categorized into explicit feedback and implicit feedback, each category requiring a different model.
 
 ### Exploratory Data Analysis of Various Music Features
 * The below violin plot is to get a sense of how the music ratings were distributed. Members of the website can rate songs from 1 (a "miss") through 5 (a "hit").  The graph shows that more songs were rated a 5 than those on the lower end of the ratings spectrum,indicating that the ratings on the website tended to skew positive.
