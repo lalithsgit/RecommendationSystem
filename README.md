@@ -25,18 +25,21 @@ Explicit inout from the user regarding an item - prompting the user for rating. 
 
 ### Using Implicit Feedback
 The system will infer user's preferences by monitoring different user actions like links followed by a user, button clicks amongst others. The predictions are objective, as there is no bias. I identified music 'saved' and 'spotlighted' as our implicit features for the client. For deriving similarities I used Jaccard Distance. The formula compares abd produces a simple decimal statistic between 0 and 1.
+
 ![Implicit Feedback](Images/ImplicitFeedback.jpg)
+
 #### Jaccard Index
 ![Jaccard Index](Images/toptal-blog-image-1423054884249.png)
 
 ## Hybrid Collaborative System
 I implemented Weighted Hybrid Collaborative system to make recommendations. In this ratings of explicit and implicit recommendation techniques are combined together to produce a single recommendation.
+
 ![Jaccard Index](Images/toptal-blog-image-1423054884249.png)
 
 ## Flask App - RESTful API
 ![Flowchart](Images/Flowchart.png)
 
-
+## Recommendations
 ![Output](Images/Flask1.png)
 
 ## Improvements
