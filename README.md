@@ -18,7 +18,7 @@ The system will infer user's preferences by monitoring different user actions li
 ## Hybrid Collaborative System
 I implemented Weighted Hybrid Collaborative system to make recommendations. In this ratings of explicit and implicit recommendation techniques are combined together to produce a single recommendation.
 
-##Flask App - RESTful API
+## Flask App - RESTful API
 
 ## Improvements
 * Once enough categorical data has been collected (ex: favorite genre, geographic location, birthday etc.), users can be filtered by category in accordance to some factors like song rating. 
