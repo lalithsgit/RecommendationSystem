@@ -4,10 +4,12 @@
 A Recommendation system is a subclass of Information Filtering Systems which seek to predict a user's preference to an item. My team and I attempted to lay the foundation for improving user experience by suggesting music based on user ratings, user spotlights of music and music saves for an upcoming music sharing website.
 
 ### Exploratory Data Analysis of Various Music Features
-* The below violin plot is to get a sense of how the music ratings were distributed. Members of the website can rate songs from 1 (a "miss") through 5 (a "hit").  The graph shows that more songs were rated a 5 than those on the lower end of the ratings spectrum, indicating that the ratings on the website tended to skew positive.
+* The below violin plot is to get a sense of how the music ratings were distributed. Members of the website can rate songs from 1 (a "miss") through 5 (a "hit").  The graph shows that more songs were rated a 5 than those on the lower end of the ratings spectrum,indicating that the ratings on the website tended to skew positive.
+
 ![Implicit Feedback](Images/dataviz1.png)
 
 * On the Company's website, users can also save songs on their profile to listen to later. These saved songs are not visible to other users. The bar graph below shows the number of songs saved (y-axis) for each listener (x-axis).  It doesn't appear that many users have saved music on the website yet.
+
 ![Implicit Feedback](Images/dataviz2.png)
 
 ## Collaborative filtering
